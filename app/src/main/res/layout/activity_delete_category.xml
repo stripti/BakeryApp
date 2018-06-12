@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cakes"
+    tools:context="com.example.user.bakeryapp.DeleteCategory">
+    <Spinner
+        android:id="@+id/spcat"
+        android:layout_width="269dp"
+        android:layout_height="57dp"
+        android:layout_weight="0.02"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="141dp"
+        android:layout_marginLeft="58dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete!!"
+        android:onClick="deletecat"
+        android:background="#defa870b"
+        android:textColor="#f9fafa"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="286dp"
+        android:layout_marginLeft="123dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="121dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:fontFamily="cursive"
+        android:textColor="#4ec10b"
+        android:text="**Select the category to be deleted**"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="13dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+</android.support.constraint.ConstraintLayout>

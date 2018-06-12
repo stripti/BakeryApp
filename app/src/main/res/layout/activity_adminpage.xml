@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bake"
+    tools:context="com.example.user.bakeryapp.Adminpage">
+
+
+    <Button
+        android:layout_width="109dp"
+        android:layout_height="49dp"
+        android:text="Add Categories"
+        android:onClick="addcategory"
+        android:fontFamily="casual"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#f7c1a2"
+        android:textColor="#832715"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="26dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/button2" />
+
+    <Button
+        android:layout_width="111dp"
+        android:layout_height="53dp"
+        android:text="Add Products"
+        android:onClick="addpro"
+        android:background="#f7c1a2"
+        android:textColor="#832715"
+        android:fontFamily="casual"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="203dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+    <Button
+        android:layout_width="106dp"
+        android:layout_height="46dp"
+        android:text="Modify Price"
+        android:onClick="modify"
+        android:background="#f7c1a2"
+        android:textColor="#832715"
+        android:fontFamily="casual"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="377dp"
+        android:layout_marginLeft="114dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+    <Button
+        android:layout_width="98dp"
+        android:layout_height="45dp"
+        android:text="View Products"
+        android:onClick="view1"
+        android:background="#f7c1a2"
+        android:textColor="#832715"
+        android:fontFamily="casual"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="193dp"
+        android:layout_marginLeft="26dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/button8" />
+    <Button
+        android:layout_width="106dp"
+        android:layout_height="45dp"
+        android:text="Delete Product"
+        android:onClick="del"
+        android:background="#f7c1a2"
+        android:textColor="#832715"
+        android:fontFamily="casual"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="102dp"
+        android:layout_marginLeft="26dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+    <Button
+        android:layout_width="117dp"
+        android:layout_height="51dp"
+        android:text="Delete Category"
+        android:onClick="delcat"
+        android:background="#f7c1a2"
+        android:textColor="#832715"
+        android:fontFamily="casual"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="102dp"
+        android:layout_marginLeft="203dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+    <Button
+        android:layout_width="104dp"
+        android:layout_height="48dp"
+        android:text="View Order"
+        android:onClick="vieworder"
+        android:background="#f7c1a2"
+        android:textColor="#832715"
+        android:fontFamily="casual"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="193dp"
+        android:layout_marginLeft="203dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/button9" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datewise"
+        android:onClick="datewise"
+        android:background="#f7c1a2"
+        android:textColor="#832715"
+        android:fontFamily="casual"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="294dp"
+        android:layout_marginLeft="26dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+    <Button
+        android:layout_width="103dp"
+        android:layout_height="48dp"
+        android:text="Productwise"
+        android:background="#f7c1a2"
+        android:textColor="#832715"
+        android:onClick="prodwise"
+        android:fontFamily="casual"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="294dp"
+        android:layout_marginLeft="203dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

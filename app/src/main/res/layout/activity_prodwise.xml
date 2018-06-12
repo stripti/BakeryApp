@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cookiee"
+    tools:context="com.example.user.bakeryapp.Prodwise">
+    <TextView
+        android:id="@+id/txtmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:textColor="#f4e8ea"
+        android:text="**Select the product**"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="93dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+    <Spinner
+        android:id="@+id/sp"
+        android:layout_width="264dp"
+        android:layout_height="57dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="77dp"
+        android:layout_marginLeft="82dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="60dp"
+        />
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f7c1a2"
+        android:textColor="#832715"
+        android:text="Go"
+        android:onClick="go"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="253dp"
+        android:layout_marginLeft="134dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+</android.support.constraint.ConstraintLayout>

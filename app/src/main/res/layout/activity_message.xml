@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/message"
+    tools:context="com.example.user.bakeryapp.Message">
+    <TextView
+        android:layout_width="359dp"
+        android:layout_height="47dp"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:textColor="#0d0d0d"
+        android:textAlignment="center"
+        android:text="Select any user for messaging!!"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:textColor="#1d1c1c"
+        android:text="Message"
+        android:background="#fafafa"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="111dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/textView5" />
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="69dp"
+        android:hint="Enter message here"
+        android:background="#fafafa"
+        android:id="@+id/txtmsg"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="84dp"
+        android:layout_marginLeft="124dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:background="#fafafa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="171dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"></ListView>
+</android.support.constraint.ConstraintLayout>

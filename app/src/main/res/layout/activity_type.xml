@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bakery"
+    tools:context="com.example.user.bakeryapp.Type">
+
+    <TextView
+        android:id="@+id/txtmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:textColor="#e2dbdc"
+        android:text="**Please select your user type as user or the administrator**"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/btnad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f7c1a2"
+        android:textColor="#832715"
+        android:text="Admin"
+        android:textSize="20dp"
+        android:onClick="admin"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="123dp"
+        android:layout_marginLeft="148dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/btnus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User"
+        android:onClick="user"
+        android:textSize="20dp"
+        android:background="#f7c1a2"
+        android:textColor="#832715"
+        android:layout_marginLeft="148dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="250dp" />
+</android.support.constraint.ConstraintLayout>

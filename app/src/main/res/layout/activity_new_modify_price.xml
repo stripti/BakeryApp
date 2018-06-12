@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context="com.example.user.bakeryapp.NewModifyPrice">
+    <Spinner
+        android:id="@+id/spprod"
+        android:layout_width="269dp"
+        android:layout_height="57dp"
+        android:layout_weight="0.02"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="81dp"
+        android:layout_marginLeft="39dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+    <EditText
+        android:id="@+id/txtprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter new price(in Rs) "
+        android:inputType="number"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="234dp"
+        android:layout_marginLeft="73dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="85dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f7c1a2"
+        android:textColor="#832715"
+        android:text="Change!!"
+        android:onClick="change"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="132dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="121dp" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:fontFamily="casual"
+        android:textColor="#ab2a07"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="172dp"
+        android:layout_marginLeft="47dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="369dp"
+        android:layout_height="54dp"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:textColor="#ea1c3a"
+        android:text="**Select the product whose price has to be modified**"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="6dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="10dp" />
+</android.support.constraint.ConstraintLayout>

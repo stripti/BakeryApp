@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:background="@drawable/form"
+    tools:context="com.example.user.bakeryapp.Form">
+
+    <TableRow>
+        <TextView android:text="Name"
+            android:gravity="center"
+            android:textColor="#aa0ae1"/>
+        <EditText android:hint="Please enter the name"
+            android:id="@+id/txtname"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Phone"
+            android:gravity="center"
+            android:textColor="#aa0ae1"/>
+        <EditText android:hint="Enter the phone no"
+            android:id="@+id/txtphone"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Email"
+            android:gravity="center"
+            android:textColor="#aa0ae1"/>
+        <EditText android:hint="Enter your email address"
+            android:id="@+id/txtmail"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:background="#f9d1f3"
+            android:onClick="order"
+            android:text="Submit"
+            android:textColor="#fc4229" />
+    </TableRow>
+</TableLayout>

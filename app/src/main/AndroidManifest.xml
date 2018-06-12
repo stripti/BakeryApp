@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.bakeryapp">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="Bakery App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Type"
+            android:label="Who are you??">
+
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="!!Login here!!" />
+        <activity
+            android:name=".Userpage"
+            android:label="Welcome user!" />
+        <activity
+            android:name=".Adminpage"
+            android:label="Hello Admin" />
+        <activity
+            android:name=".AddCategory"
+            android:label="*Add the categories here*" />
+        <activity
+            android:name=".AddProduct"
+            android:label="Add the products here!!" />
+        <activity
+            android:name=".View1"
+            android:label="All products are here!" />
+        <activity android:name=".NewModifyPrice" />
+        <activity
+            android:name=".DeleteProduct"
+            android:label="Delete Product" />
+        <activity
+            android:name=".DeleteCategory"
+            android:label="Delete Category" />
+        <activity
+            android:name=".Product"
+            android:label="Choose Products to order!" />
+        <activity
+            android:name=".Form"
+            android:label="Please fill!!" />
+        <activity
+            android:name=".Datewise"
+            android:label="Orders Datewise" />
+        <activity
+            android:name=".Prodwise"
+            android:label="Orders Productwise" />
+        <activity
+            android:name=".ViewOrder"
+            android:label="View the orders!" />
+        <activity
+            android:name=".OrderProd"
+            android:label="Orders Productwise" />
+        <activity
+            android:name=".Message"
+            android:label="Messaging Service" />
+        <activity
+            android:name=".Calling"
+            android:label="Call Services" />
+        <activity
+            android:name=".Mail"
+            android:label="Mailing Service" />
+        <activity
+            android:name=".Modify"
+            android:label="Modify Price" />
+    </application>
+
+</manifest>

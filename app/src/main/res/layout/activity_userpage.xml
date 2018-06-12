@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cakes"
+    tools:context="com.example.user.bakeryapp.Userpage">
+    <TextView
+        android:id="@+id/txtmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:textColor="#02892e"
+        android:text="**Select the category of which you want to buy product**"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+    <Spinner
+        android:id="@+id/sp"
+        android:layout_width="264dp"
+        android:layout_height="57dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="114dp"
+        android:layout_marginLeft="71dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="60dp"
+        />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="48dp"
+        android:layout_height="31dp"
+        android:text="Go"
+        android:onClick="go"
+        android:background="#f2d8c8"
+        android:textColor="#ff134e"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="251dp"
+        android:layout_marginLeft="146dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
